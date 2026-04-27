@@ -100,7 +100,16 @@ kubectl -n gpu-operator exec -it <nvidia-pod> -- nvidia-smi topo -m
 - Observed:
   - Cluster GPU visibility: `pass` (GPU operator labels/resources present)
   - Device plugin health: `pass` (`nvidia-device-plugin-daemonset-g767g Running`)
-  - Topology evidence source: `pending pod-based nvidia-smi topo -m`
+  - Topology evidence source: `nvidia-smi topo -m from nvidia-driver-ctr`
+  - Topology summary (`lsps064x`):
+    - NUMA 0: `GPU0,GPU1,GPU2,GPU3` (CPU affinity `0,2,4,6,8,10`)
+    - NUMA 1: `GPU4,GPU5,GPU6,GPU7` (CPU affinity `1,3,5,7,9,11`)
+  - MIG profile summary (`lsps064x`):
+    - `GPU0-3`: `3g.40gb x2` per GPU
+    - `GPU4-7`: `3g.40gb x1` + `2g.20gb x2` per GPU
+  - Evidence files:
+    - `evidence/2026-04-27/lsps064x-nvidia-smi-L.txt`
+    - `evidence/2026-04-27/lsps064x-nvidia-smi-topo-m.txt`
 
 ### 1.5 Kubelet Topology Configuration (Precondition)
 
@@ -167,10 +176,19 @@ kubectl describe node lsps044x
   - `Numatopology` CR evidence once resource-exporter PR build is deployed.
 
 - Observed:
-  - Single-NUMA confirmed: `pending`
-  - Evidence source: `pending (pod topology or Numatopology CR after PR deploy)`
+  - Single-NUMA confirmed: `no` (node has two NUMA affinities for two GPUs)
+  - Evidence source: `nvidia-smi topo -m from nvidia-driver-ctr`
+  - Topology summary (`lsps044x`):
+    - `GPU0`: NUMA affinity `0` (CPU affinity `0-31,64-95`)
+    - `GPU1`: NUMA affinity `1` (CPU affinity `32-63,96-127`)
+  - MIG profile summary (`lsps044x`):
+    - `GPU0`: `3g.20gb x1` + `2g.10gb x2`
+    - `GPU1`: `3g.20gb x1` + `2g.10gb x2`
+  - Evidence files:
+    - `evidence/2026-04-27/lsps044x-nvidia-smi-L.txt`
+    - `evidence/2026-04-27/lsps044x-nvidia-smi-topo-m.txt`
 
 ### 1b.4 Phase 1b Conclusion
 
 - Result: `PARTIAL`
-- Summary: `Node baseline is healthy, but it is cordoned and currently exposes MIG resources only, not full GPUs.`
+- Summary: `Node baseline is healthy, but it is cordoned, MIG-only, and NUMA topology is dual-domain rather than single-NUMA.`
