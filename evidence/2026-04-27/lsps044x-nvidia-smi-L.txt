@@ -1,0 +1,8 @@
+GPU 0: NVIDIA A100-PCIE-40GB (UUID: GPU-54ab5113-04c3-7e0a-5bf0-4cab4f02fa8a)
+  MIG 3g.20gb     Device  0: (UUID: MIG-b3c23a6a-3eb2-5a07-9315-0bc286f74203)
+  MIG 2g.10gb     Device  1: (UUID: MIG-077c9919-2879-5b95-a454-7d60f5e3035d)
+  MIG 2g.10gb     Device  2: (UUID: MIG-c3869e9e-9b98-5ff2-b291-816e02ef326c)
+GPU 1: NVIDIA A100-PCIE-40GB (UUID: GPU-5d20c624-f3ca-3a85-b626-350a413daad5)
+  MIG 3g.20gb     Device  0: (UUID: MIG-b8dd6f6b-b503-596f-891c-7e53e822e229)
+  MIG 2g.10gb     Device  1: (UUID: MIG-c3c9d674-131d-5829-b8cd-e7dec030ffd9)
+  MIG 2g.10gb     Device  2: (UUID: MIG-e128238e-3864-5ca4-906e-4ecfd578d2fd)
