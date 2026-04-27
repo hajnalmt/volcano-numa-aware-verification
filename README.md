@@ -11,6 +11,7 @@ findings, and follow-up actions.
 ## Structure
 
 - `docs/verification-progress.md` - living verification log
+- `VERSIONS.md` - pinned upstream PR commits under test
 - `evidence/` - command outputs and screenshots grouped by host/date
 
 ## Notes
