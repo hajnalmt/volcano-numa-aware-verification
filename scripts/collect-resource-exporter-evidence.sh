@@ -93,11 +93,9 @@ kubectl get numatopologies -A | tee "${OUT_DIR}/numatopologies-list-after-${NODE
 kubectl get numatopologies -A -o yaml > "${OUT_DIR}/numatopologies-after-${NODE}.yaml"
 
 if [[ ${found} -eq 1 ]]; then
-  topo_name="$(kubectl get numatopologies -A --no-headers | awk -v n="${NODE}" '$0 ~ n {print $2; exit}')"
-  topo_ns="$(kubectl get numatopologies -A --no-headers | awk -v n="${NODE}" '$0 ~ n {print $1; exit}')"
-  if [[ -n "${topo_name}" && -n "${topo_ns}" ]]; then
-    kubectl -n "${topo_ns}" get numatopology "${topo_name}" -o yaml > "${OUT_DIR}/numatopology-${NODE}.yaml"
-  fi
+  # numatopologies.nodeinfo.volcano.sh is cluster-scoped in this environment,
+  # and object names match node names (e.g. lsps044x, lsps064x).
+  kubectl get numatopology "${NODE}" -o yaml > "${OUT_DIR}/numatopology-${NODE}.yaml"
 else
   echo "WARNING: No Numatopology entry found for ${NODE} within ${WAIT_SECONDS}s" \
     | tee "${OUT_DIR}/warning-no-numatopology-${NODE}.txt"
