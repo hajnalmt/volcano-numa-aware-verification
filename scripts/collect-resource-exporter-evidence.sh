@@ -25,6 +25,7 @@ LABEL="name=resource-topology"
 INSTALLER="${OUT_DIR}/installer-numa-topo-${NODE}.yaml"
 WAIT_SECONDS=120
 SLEEP_SECONDS=5
+LOG_WAIT_PATTERN='discovered.*gpu|numa='
 
 if [[ ! -f "${INSTALLER}" ]]; then
   echo "Installer not found: ${INSTALLER}" >&2
@@ -58,12 +59,18 @@ kubectl -n "${NS}" describe pod "${POD}" > "${OUT_DIR}/describe-pod-${NODE}.txt"
 echo "Waiting for exporter loop activity (${WAIT_SECONDS}s max)..."
 elapsed=0
 while [[ ${elapsed} -lt ${WAIT_SECONDS} ]]; do
-  if kubectl -n "${NS}" logs "${POD}" --tail=200 | grep -q "Discovered .* NVIDIA GPU"; then
+  if timeout 15 kubectl -n "${NS}" logs "${POD}" --tail=300 | grep -Eiq "${LOG_WAIT_PATTERN}"; then
+    echo "Detected exporter GPU discovery log pattern."
     break
   fi
+  echo "No matching discovery logs yet (${elapsed}s/${WAIT_SECONDS}s), retrying..."
   sleep "${SLEEP_SECONDS}"
   elapsed=$((elapsed + SLEEP_SECONDS))
 done
+if [[ ${elapsed} -ge ${WAIT_SECONDS} ]]; then
+  echo "WARNING: exporter discovery log pattern not observed within timeout" \
+    | tee "${OUT_DIR}/warning-no-discovery-log-${NODE}.txt"
+fi
 
 echo "Collecting logs from pod: ${POD}"
 kubectl -n "${NS}" logs "${POD}" --tail=1000 \
