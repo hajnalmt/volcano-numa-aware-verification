@@ -23,6 +23,8 @@ NS="volcano-system"
 DS="resource-exporter-daemonset"
 LABEL="name=resource-topology"
 INSTALLER="${OUT_DIR}/installer-numa-topo-${NODE}.yaml"
+WAIT_SECONDS=120
+SLEEP_SECONDS=5
 
 if [[ ! -f "${INSTALLER}" ]]; then
   echo "Installer not found: ${INSTALLER}" >&2
@@ -49,12 +51,49 @@ if [[ -z "${POD}" ]]; then
   exit 1
 fi
 
+echo "Collecting daemonset and pod describe output..."
+kubectl -n "${NS}" describe ds "${DS}" > "${OUT_DIR}/describe-ds-${NODE}.txt"
+kubectl -n "${NS}" describe pod "${POD}" > "${OUT_DIR}/describe-pod-${NODE}.txt"
+
+echo "Waiting for exporter loop activity (${WAIT_SECONDS}s max)..."
+elapsed=0
+while [[ ${elapsed} -lt ${WAIT_SECONDS} ]]; do
+  if kubectl -n "${NS}" logs "${POD}" --tail=200 | grep -q "Discovered .* NVIDIA GPU"; then
+    break
+  fi
+  sleep "${SLEEP_SECONDS}"
+  elapsed=$((elapsed + SLEEP_SECONDS))
+done
+
 echo "Collecting logs from pod: ${POD}"
-kubectl -n "${NS}" logs "${POD}" --tail=500 \
+kubectl -n "${NS}" logs "${POD}" --tail=1000 \
   | tee "${OUT_DIR}/logs-resource-topology-${NODE}.txt"
 
+echo "Waiting for Numatopology entry for ${NODE} (${WAIT_SECONDS}s max)..."
+elapsed=0
+found=0
+while [[ ${elapsed} -lt ${WAIT_SECONDS} ]]; do
+  if kubectl get numatopologies -A --no-headers 2>/dev/null | grep -q "${NODE}"; then
+    found=1
+    break
+  fi
+  sleep "${SLEEP_SECONDS}"
+  elapsed=$((elapsed + SLEEP_SECONDS))
+done
+
 echo "Collecting Numatopology CRs..."
-kubectl get numatopologies -A -o yaml > "${OUT_DIR}/numatopologies-after-${NODE}.yaml"
 kubectl get numatopologies -A | tee "${OUT_DIR}/numatopologies-list-after-${NODE}.txt"
+kubectl get numatopologies -A -o yaml > "${OUT_DIR}/numatopologies-after-${NODE}.yaml"
+
+if [[ ${found} -eq 1 ]]; then
+  topo_name="$(kubectl get numatopologies -A --no-headers | awk -v n="${NODE}" '$0 ~ n {print $2; exit}')"
+  topo_ns="$(kubectl get numatopologies -A --no-headers | awk -v n="${NODE}" '$0 ~ n {print $1; exit}')"
+  if [[ -n "${topo_name}" && -n "${topo_ns}" ]]; then
+    kubectl -n "${topo_ns}" get numatopology "${topo_name}" -o yaml > "${OUT_DIR}/numatopology-${NODE}.yaml"
+  fi
+else
+  echo "WARNING: No Numatopology entry found for ${NODE} within ${WAIT_SECONDS}s" \
+    | tee "${OUT_DIR}/warning-no-numatopology-${NODE}.txt"
+fi
 
 echo "Done. Evidence written under: ${OUT_DIR}"
