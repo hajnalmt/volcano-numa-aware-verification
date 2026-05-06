@@ -1,0 +1,4 @@
+clusterrole.rbac.authorization.k8s.io/resource-exporter unchanged
+clusterrolebinding.rbac.authorization.k8s.io/resource-exporter-bind unchanged
+serviceaccount/resource-exporter-account unchanged
+daemonset.apps/resource-exporter-daemonset unchanged

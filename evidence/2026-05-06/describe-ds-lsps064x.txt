@@ -1,0 +1,53 @@
+Name:           resource-exporter-daemonset
+Namespace:      volcano-system
+Selector:       name=resource-topology
+Node-Selector:  kubernetes.io/hostname=lsps064x
+Labels:         <none>
+Annotations:    deprecated.daemonset.template.generation: 2
+Desired Number of Nodes Scheduled: 1
+Current Number of Nodes Scheduled: 1
+Number of Nodes Scheduled with Up-to-date Pods: 1
+Number of Nodes Scheduled with Available Pods: 1
+Number of Nodes Misscheduled: 0
+Pods Status:  1 Running / 0 Waiting / 0 Succeeded / 0 Failed
+Pod Template:
+  Labels:           name=resource-topology
+  Service Account:  resource-exporter-account
+  Containers:
+   resource-topology:
+    Image:      ams-adas-cratus-docker-l.eu.artifactory.automotive.cloud/cratus/volcano/numatopo:pr-12-3abad69-uih20178
+    Port:       <none>
+    Host Port:  <none>
+    Args:
+      --logtostderr
+      --kubelet-conf=/host/kubeletconf/config.yaml
+      --cpu-manager-state=/host/kubelet/cpu_manager_state
+      --device-path=/host/device
+      -v=4
+    Environment:
+      MY_NODE_NAME:   (v1:spec.nodeName)
+    Mounts:
+      /host/device from node-path (ro)
+      /host/kubelet from kubelet-path (ro)
+      /host/kubeletconf from kubelet-config-path (ro)
+  Volumes:
+   node-path:
+    Type:          HostPath (bare host directory volume)
+    Path:          /sys/devices/system
+    HostPathType:  
+   kubelet-path:
+    Type:          HostPath (bare host directory volume)
+    Path:          /var/lib/kubelet
+    HostPathType:  
+   kubelet-config-path:
+    Type:          HostPath (bare host directory volume)
+    Path:          /var/lib/kubelet
+    HostPathType:  
+  Node-Selectors:  kubernetes.io/hostname=lsps064x
+  Tolerations:     op=Exists
+Events:
+  Type    Reason            Age    From                  Message
+  ----    ------            ----   ----                  -------
+  Normal  SuccessfulCreate  17m    daemonset-controller  Created pod: resource-exporter-daemonset-47czv
+  Normal  SuccessfulCreate  4m14s  daemonset-controller  Created pod: resource-exporter-daemonset-lwwxm
+  Normal  SuccessfulDelete  4m14s  daemonset-controller  Deleted pod: resource-exporter-daemonset-47czv

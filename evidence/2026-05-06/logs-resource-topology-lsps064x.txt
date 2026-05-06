@@ -1,0 +1,826 @@
+E0506 15:47:04.976643       1 info.go:99] Failed to get disk map: open /sys/block/nvme0c0n1/dev: no such file or directory
+W0506 15:47:05.061350       1 info.go:53] Couldn't collect info from any of the files in "/etc/machine-id,/var/lib/dbus/machine-id"
+W0506 15:47:05.061551       1 client_config.go:608] Neither --kubeconfig nor --master was specified.  Using the inClusterConfig.  This might not work.
+I0506 15:47:08.074085       1 kubeletconfig.go:95] map[]
+I0506 15:47:08.074140       1 main.go:102] Node info changes.
+I0506 15:47:11.066873       1 kubeletconfig.go:95] map[]
+I0506 15:47:11.078814       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:11.080862       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:11.082104       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:11.083369       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:11.098204       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:11.100199       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:11.101656       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:11.103238       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:11.116494       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:11.136308       1 main.go:102] Node info changes.
+I0506 15:47:14.072347       1 kubeletconfig.go:95] map[]
+I0506 15:47:14.088904       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:14.089698       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:14.090152       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:14.090632       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:14.099069       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:14.100193       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:14.101034       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:14.101885       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:14.110264       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:17.072584       1 kubeletconfig.go:95] map[]
+I0506 15:47:17.101213       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:17.101927       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:17.102382       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:17.102856       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:17.107395       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:17.107862       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:17.108209       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:17.108578       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:17.112206       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:20.071852       1 kubeletconfig.go:95] map[]
+I0506 15:47:20.101820       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:20.103289       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:20.104148       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:20.105183       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:20.117760       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:20.119032       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:20.120106       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:20.121173       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:20.128068       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:23.082408       1 kubeletconfig.go:95] map[]
+I0506 15:47:23.094771       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:23.095322       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:23.095668       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:23.096012       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:23.100341       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:23.101108       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:23.101562       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:23.101968       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:23.112845       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:26.071391       1 kubeletconfig.go:95] map[]
+I0506 15:47:26.100906       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:26.102342       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:26.103436       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:26.104452       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:26.112337       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:26.112853       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:26.113243       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:26.113626       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:26.117417       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:29.073810       1 kubeletconfig.go:95] map[]
+I0506 15:47:29.112430       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:29.114398       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:29.115510       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:29.116745       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:29.131592       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:29.133241       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:29.134483       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:29.135591       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:29.145800       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:32.071714       1 kubeletconfig.go:95] map[]
+I0506 15:47:32.107766       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:32.109228       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:32.110063       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:32.111095       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:32.120895       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:32.121780       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:32.122442       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:32.123027       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:32.129323       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:35.072095       1 kubeletconfig.go:95] map[]
+I0506 15:47:35.100867       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:35.102125       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:35.102841       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:35.103597       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:35.112578       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:35.113081       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:35.113471       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:35.113872       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:35.117951       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:38.070684       1 kubeletconfig.go:95] map[]
+I0506 15:47:38.104522       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:38.106132       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:38.107084       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:38.108094       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:38.120612       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:38.121987       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:38.123032       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:38.124027       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:38.133726       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:41.087104       1 kubeletconfig.go:95] map[]
+I0506 15:47:41.131600       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:41.132101       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:41.132375       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:41.132681       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:41.136475       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:41.136897       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:41.137197       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:41.137502       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:41.140842       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:44.083081       1 kubeletconfig.go:95] map[]
+I0506 15:47:44.118327       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:44.119813       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:44.120681       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:44.121543       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:44.134796       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:44.136176       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:44.137215       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:44.138239       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:44.150988       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:47.072286       1 kubeletconfig.go:95] map[]
+I0506 15:47:47.097870       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:47.098418       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:47.098731       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:47.099058       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:47.103147       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:47.103603       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:47.103965       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:47.104337       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:47.108164       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:50.071355       1 kubeletconfig.go:95] map[]
+I0506 15:47:50.103612       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:50.105305       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:50.106232       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:50.107141       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:50.118217       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:50.119363       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:50.120249       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:50.121134       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:50.130725       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:53.074254       1 kubeletconfig.go:95] map[]
+I0506 15:47:53.103886       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:53.105343       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:53.106189       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:53.107074       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:53.116948       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:53.118500       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:53.120017       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:53.121031       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:53.130297       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:56.069018       1 kubeletconfig.go:95] map[]
+I0506 15:47:56.084852       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:56.085835       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:56.086411       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:56.087029       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:56.094339       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:56.094990       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:56.095469       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:56.095950       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:56.100856       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:47:59.072235       1 kubeletconfig.go:95] map[]
+I0506 15:47:59.090288       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:59.091147       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:59.091616       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:59.092078       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:47:59.099823       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:59.100738       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:59.101475       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:59.102150       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:47:59.108723       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:02.071219       1 kubeletconfig.go:95] map[]
+I0506 15:48:02.097100       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:02.098549       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:02.099407       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:02.100308       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:02.111172       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:02.112192       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:02.112949       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:02.113707       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:02.120643       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:05.073687       1 kubeletconfig.go:95] map[]
+I0506 15:48:05.080647       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:05.082067       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:05.082916       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:05.083812       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:05.094829       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:05.096020       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:05.096909       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:05.097826       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:05.107135       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:08.072766       1 kubeletconfig.go:95] map[]
+I0506 15:48:08.101976       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:08.103110       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:08.103822       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:08.104557       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:08.112021       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:08.112968       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:08.113498       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:08.114045       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:08.119852       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:11.070705       1 kubeletconfig.go:95] map[]
+I0506 15:48:11.077489       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:11.078903       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:11.079995       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:11.080923       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:11.095271       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:11.096638       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:11.097529       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:11.098422       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:11.108297       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:14.072758       1 kubeletconfig.go:95] map[]
+I0506 15:48:14.101670       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:14.103014       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:14.103819       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:14.104675       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:14.113978       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:14.114823       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:14.115460       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:14.116107       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:14.122088       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:17.069796       1 kubeletconfig.go:95] map[]
+I0506 15:48:17.084718       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:17.085443       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:17.085883       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:17.086341       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:17.092979       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:17.093561       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:17.094032       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:17.094454       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:17.098999       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:20.070349       1 kubeletconfig.go:95] map[]
+I0506 15:48:20.092262       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:20.094384       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:20.095315       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:20.096291       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:20.107239       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:20.108393       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:20.109276       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:20.110153       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:20.118833       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:23.072541       1 kubeletconfig.go:95] map[]
+I0506 15:48:23.093550       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:23.094123       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:23.094500       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:23.094856       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:23.099306       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:23.099757       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:23.100108       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:23.100477       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:23.104175       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:26.071591       1 kubeletconfig.go:95] map[]
+I0506 15:48:26.097978       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:26.098547       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:26.098886       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:26.099248       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:26.103731       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:26.104190       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:26.104549       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:26.104914       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:26.110227       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:29.073641       1 kubeletconfig.go:95] map[]
+I0506 15:48:29.112075       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:29.113699       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:29.114652       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:29.115501       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:29.128192       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:29.129379       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:29.130298       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:29.131204       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:29.140219       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:32.073031       1 kubeletconfig.go:95] map[]
+I0506 15:48:32.102875       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:32.104278       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:32.105112       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:32.106009       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:32.116849       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:32.117969       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:32.118897       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:32.119831       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:32.127663       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:35.072818       1 kubeletconfig.go:95] map[]
+I0506 15:48:35.086465       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:35.087098       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:35.087474       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:35.087882       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:35.092691       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:35.093504       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:35.094418       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:35.095300       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:35.104081       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:38.074656       1 kubeletconfig.go:95] map[]
+I0506 15:48:38.102102       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:38.103183       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:38.103845       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:38.104512       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:38.112006       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:38.113067       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:38.113760       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:38.114765       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:38.118090       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:41.071016       1 kubeletconfig.go:95] map[]
+I0506 15:48:41.094299       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:41.095292       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:41.095883       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:41.096488       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:41.108852       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:41.110137       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:41.111109       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:41.112065       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:41.121747       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:44.072989       1 kubeletconfig.go:95] map[]
+I0506 15:48:44.110716       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:44.112628       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:44.113790       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:44.115049       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:44.129725       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:44.131242       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:44.132434       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:44.133635       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:44.143775       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:47.072837       1 kubeletconfig.go:95] map[]
+I0506 15:48:47.105620       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:47.107044       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:47.107903       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:47.108807       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:47.123142       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:47.124493       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:47.125470       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:47.126458       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:47.136929       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:50.070559       1 kubeletconfig.go:95] map[]
+I0506 15:48:50.078401       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:50.080011       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:50.080962       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:50.081967       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:50.093260       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:50.093697       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:50.094028       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:50.094355       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:50.097781       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:53.072969       1 kubeletconfig.go:95] map[]
+I0506 15:48:53.098612       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:53.100221       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:53.101146       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:53.102121       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:53.114219       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:53.115477       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:53.116468       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:53.117482       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:53.127462       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:56.073129       1 kubeletconfig.go:95] map[]
+I0506 15:48:56.109400       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:56.111357       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:56.112365       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:56.113362       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:56.127238       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:56.128849       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:56.129990       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:56.131220       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:56.136952       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:48:59.073970       1 kubeletconfig.go:95] map[]
+I0506 15:48:59.102362       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:59.103836       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:59.104665       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:59.105531       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:48:59.115197       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:59.116062       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:59.116730       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:59.118158       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:48:59.128611       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:02.078667       1 kubeletconfig.go:95] map[]
+I0506 15:49:02.115278       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:02.116998       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:02.117957       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:02.118895       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:02.132709       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:02.134003       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:02.135005       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:02.135993       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:02.146176       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:05.070299       1 kubeletconfig.go:95] map[]
+I0506 15:49:05.102916       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:05.104687       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:05.105738       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:05.106838       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:05.120468       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:05.121902       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:05.123006       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:05.124106       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:05.134585       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:08.071723       1 kubeletconfig.go:95] map[]
+I0506 15:49:08.103294       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:08.104810       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:08.105725       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:08.106680       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:08.118154       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:08.119200       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:08.120011       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:08.120821       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:08.130644       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:11.072667       1 kubeletconfig.go:95] map[]
+I0506 15:49:11.100858       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:11.102240       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:11.103157       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:11.104055       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:11.114107       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:11.114670       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:11.115094       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:11.115519       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:11.123496       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:14.072801       1 kubeletconfig.go:95] map[]
+I0506 15:49:14.106310       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:14.107992       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:14.108974       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:14.110022       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:14.122979       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:14.124391       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:14.125427       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:14.126453       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:14.136382       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:17.080936       1 kubeletconfig.go:95] map[]
+I0506 15:49:17.114890       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:17.116483       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:17.117450       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:17.118472       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:17.130385       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:17.131535       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:17.132457       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:17.133301       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:17.141516       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:20.073041       1 kubeletconfig.go:95] map[]
+I0506 15:49:20.080279       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:20.081868       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:20.082784       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:20.083778       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:20.096426       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:20.097848       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:20.098855       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:20.099865       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:20.109856       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:23.072942       1 kubeletconfig.go:95] map[]
+I0506 15:49:23.112364       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:23.113706       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:23.114695       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:23.116434       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:23.126795       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:23.127861       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:23.128671       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:23.129466       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:23.137588       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:26.070556       1 kubeletconfig.go:95] map[]
+I0506 15:49:26.103711       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:26.105259       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:26.106181       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:26.107142       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:26.119110       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:26.120344       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:26.121316       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:26.122262       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:26.133655       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:29.072724       1 kubeletconfig.go:95] map[]
+I0506 15:49:29.111138       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:29.113029       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:29.114099       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:29.115231       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:29.127247       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:29.128362       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:29.129196       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:29.130147       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:29.144611       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:32.071509       1 kubeletconfig.go:95] map[]
+I0506 15:49:32.096539       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:32.099606       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:32.100528       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:32.101479       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:32.112897       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:32.114149       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:32.115070       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:32.115999       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:32.126038       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:35.071557       1 kubeletconfig.go:95] map[]
+I0506 15:49:35.102523       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:35.103991       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:35.104846       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:35.105749       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:35.117061       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:35.119440       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:35.121844       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:35.124387       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:35.134621       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:38.079887       1 kubeletconfig.go:95] map[]
+I0506 15:49:38.096953       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:38.097559       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:38.098012       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:38.098443       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:38.104129       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:38.104699       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:38.105078       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:38.105418       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:38.111391       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:41.071223       1 kubeletconfig.go:95] map[]
+I0506 15:49:41.100220       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:41.101638       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:41.102469       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:41.103354       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:41.115490       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:41.116651       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:41.117530       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:41.118435       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:41.127661       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:44.072169       1 kubeletconfig.go:95] map[]
+I0506 15:49:44.096601       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:44.098509       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:44.099126       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:44.099763       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:44.107609       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:44.108418       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:44.109072       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:44.109721       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:44.116403       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:47.072790       1 kubeletconfig.go:95] map[]
+I0506 15:49:47.106809       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:47.108197       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:47.109016       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:47.109883       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:47.120545       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:47.121741       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:47.122614       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:47.123470       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:47.132014       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:50.070686       1 kubeletconfig.go:95] map[]
+I0506 15:49:50.107060       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:50.109064       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:50.110219       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:50.111469       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:50.123992       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:50.125093       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:50.125921       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:50.126832       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:50.136055       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:53.071550       1 kubeletconfig.go:95] map[]
+I0506 15:49:53.090026       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:53.090583       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:53.090905       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:53.091255       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:53.100278       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:53.101269       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:53.102050       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:53.102815       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:53.109169       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:56.077982       1 kubeletconfig.go:95] map[]
+I0506 15:49:56.112333       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:56.114106       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:56.115167       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:56.116204       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:56.128850       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:56.130279       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:56.131333       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:56.132365       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:56.142938       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:49:59.071629       1 kubeletconfig.go:95] map[]
+I0506 15:49:59.106329       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:59.108187       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:59.109273       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:59.110427       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:49:59.124221       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:59.125666       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:59.126716       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:59.127900       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:49:59.137562       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:02.074713       1 kubeletconfig.go:95] map[]
+I0506 15:50:02.086532       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:02.087026       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:02.087302       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:02.087600       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:02.091473       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:02.091886       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:02.092197       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:02.093356       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:02.097414       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:05.070588       1 kubeletconfig.go:95] map[]
+I0506 15:50:05.100705       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:05.102078       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:05.102871       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:05.103710       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:05.119444       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:05.120784       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:05.121919       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:05.122994       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:05.134507       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:08.073544       1 kubeletconfig.go:95] map[]
+I0506 15:50:08.104476       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:08.105942       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:08.106816       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:08.107994       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:08.120043       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:08.121411       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:08.122365       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:08.123342       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:08.132825       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:11.070798       1 kubeletconfig.go:95] map[]
+I0506 15:50:11.076626       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:11.077449       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:11.077913       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:11.078376       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:11.084219       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:11.084822       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:11.085289       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:11.085753       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:11.090527       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:14.070277       1 kubeletconfig.go:95] map[]
+I0506 15:50:14.100368       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:14.101832       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:14.102698       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:14.103614       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:14.118138       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:14.119599       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:14.120670       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:14.121702       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:14.135019       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:17.071869       1 kubeletconfig.go:95] map[]
+I0506 15:50:17.102299       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:17.103130       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:17.103628       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:17.104148       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:17.111184       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:17.111945       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:17.112423       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:17.113039       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:17.118062       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:20.072293       1 kubeletconfig.go:95] map[]
+I0506 15:50:20.101738       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:20.102600       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:20.103101       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:20.103667       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:20.114653       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:20.116230       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:20.117367       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:20.118494       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:20.130054       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:23.069575       1 kubeletconfig.go:95] map[]
+I0506 15:50:23.093277       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:23.094453       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:23.095153       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:23.095891       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:23.108800       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:23.110002       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:23.110847       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:23.111696       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:23.119329       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:26.070895       1 kubeletconfig.go:95] map[]
+I0506 15:50:26.104560       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:26.105807       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:26.106512       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:26.107278       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:26.116713       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:26.117721       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:26.118477       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:26.119231       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:26.127085       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:29.072699       1 kubeletconfig.go:95] map[]
+I0506 15:50:29.079987       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:29.081605       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:29.082466       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:29.083431       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:29.098038       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:29.099674       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:29.100910       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:29.102138       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:29.114956       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:32.073604       1 kubeletconfig.go:95] map[]
+I0506 15:50:32.107887       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:32.109542       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:32.110388       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:32.111273       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:32.120706       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:32.121626       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:32.122286       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:32.123311       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:32.133208       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:35.071214       1 kubeletconfig.go:95] map[]
+I0506 15:50:35.100829       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:35.101919       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:35.102549       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:35.103229       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:35.110787       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:35.111332       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:35.111766       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:35.112164       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:35.116459       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:38.071349       1 kubeletconfig.go:95] map[]
+I0506 15:50:38.106038       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:38.107486       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:38.108361       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:38.109275       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:38.120391       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:38.121606       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:38.122511       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:38.123458       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:38.132449       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:41.073204       1 kubeletconfig.go:95] map[]
+I0506 15:50:41.101459       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:41.102908       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:41.103756       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:41.104660       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:41.115996       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:41.117211       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:41.118132       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:41.119052       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:41.128172       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:44.073952       1 kubeletconfig.go:95] map[]
+I0506 15:50:44.101195       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:44.102575       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:44.103320       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:44.104173       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:44.113516       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:44.115952       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:44.116958       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:44.117881       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:44.127159       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:47.070761       1 kubeletconfig.go:95] map[]
+I0506 15:50:47.100270       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:47.103358       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:47.104260       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:47.105206       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:47.118031       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:47.119798       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:47.121161       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:47.122480       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:47.136213       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:50.072138       1 kubeletconfig.go:95] map[]
+I0506 15:50:50.094307       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:50.094923       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:50.095266       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:50.095637       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:50.100829       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:50.101653       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:50.102136       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:50.102588       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:50.108800       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:53.075496       1 kubeletconfig.go:95] map[]
+I0506 15:50:53.082054       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:53.084110       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:53.085029       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:53.086059       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:53.096885       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:53.098042       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:53.098922       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:53.099808       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:53.108943       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:56.072408       1 kubeletconfig.go:95] map[]
+I0506 15:50:56.108256       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:56.109907       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:56.110872       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:56.111981       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:56.123558       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:56.124766       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:56.125681       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:56.126597       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:56.135984       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:50:59.074686       1 kubeletconfig.go:95] map[]
+I0506 15:50:59.105840       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:59.107328       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:59.108202       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:59.109128       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:50:59.120443       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:59.121623       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:59.122532       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:59.123440       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:50:59.132495       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:51:02.071444       1 kubeletconfig.go:95] map[]
+I0506 15:51:02.076934       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:02.078023       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:02.078670       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:02.079351       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:02.093108       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:02.094506       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:02.095533       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:02.096577       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:02.107755       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:51:05.070458       1 kubeletconfig.go:95] map[]
+I0506 15:51:05.084196       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:05.084822       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:05.085193       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:05.085696       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:05.093643       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:05.095018       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:05.096123       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:05.096958       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:05.104863       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:51:08.073636       1 kubeletconfig.go:95] map[]
+I0506 15:51:08.110085       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:08.111870       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:08.112829       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:08.115045       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:08.131104       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:08.131611       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:08.131971       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:08.132333       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:08.135864       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:51:11.071257       1 kubeletconfig.go:95] map[]
+I0506 15:51:11.105208       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:11.106958       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:11.107973       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:11.109021       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:11.120293       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:11.121400       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:11.122411       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:11.124031       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:11.135719       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)
+I0506 15:51:14.075450       1 kubeletconfig.go:95] map[]
+I0506 15:51:14.107247       1 gputopo.go:127] Discovered GPU 0: BDF=0000:19:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:14.108347       1 gputopo.go:127] Discovered GPU 1: BDF=0000:3b:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:14.109004       1 gputopo.go:127] Discovered GPU 2: BDF=0000:4c:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:14.109659       1 gputopo.go:127] Discovered GPU 3: BDF=0000:5d:00.0 NUMA=0 Model=0x10de:0x2330
+I0506 15:51:14.117405       1 gputopo.go:127] Discovered GPU 4: BDF=0000:9b:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:14.118154       1 gputopo.go:127] Discovered GPU 5: BDF=0000:bb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:14.118734       1 gputopo.go:127] Discovered GPU 6: BDF=0000:cb:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:14.119299       1 gputopo.go:127] Discovered GPU 7: BDF=0000:db:00.0 NUMA=1 Model=0x10de:0x2330
+I0506 15:51:14.125298       1 gputopo.go:131] Discovered 8 NVIDIA GPU(s)

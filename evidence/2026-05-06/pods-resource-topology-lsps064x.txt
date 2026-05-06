@@ -1,0 +1,2 @@
+NAME                                READY   STATUS    RESTARTS   AGE     IP              NODE       NOMINATED NODE   READINESS GATES
+resource-exporter-daemonset-lwwxm   1/1     Running   0          2m21s   10.110.18.194   lsps064x   <none>           <none>
