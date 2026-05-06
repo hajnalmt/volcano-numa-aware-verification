@@ -1,0 +1,12 @@
+{
+  "cpu": "222",
+  "ephemeral-storage": "422381222414",
+  "hugepages-1Gi": "0",
+  "hugepages-2Mi": "0",
+  "memory": "2074324068Ki",
+  "nvidia.com/gpu": "0",
+  "nvidia.com/mig-2g.20gb": "8",
+  "nvidia.com/mig-3g.40gb": "12",
+  "pods": "110",
+  "rdma/hca": "1k"
+}

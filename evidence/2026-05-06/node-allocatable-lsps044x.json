@@ -1,0 +1,11 @@
+{
+  "cpu": "126",
+  "ephemeral-storage": "422411421403",
+  "hugepages-1Gi": "0",
+  "hugepages-2Mi": "0",
+  "memory": "489145516Ki",
+  "nvidia.com/mig-2g.10gb": "4",
+  "nvidia.com/mig-3g.20gb": "2",
+  "pods": "110",
+  "rdma/hca": "1k"
+}
