@@ -192,3 +192,74 @@ kubectl describe node lsps044x
 
 - Result: `PARTIAL`
 - Summary: `Node baseline is healthy, but it is cordoned, MIG-only, and NUMA topology is dual-domain rather than single-NUMA.`
+
+---
+
+## Phase 2: Resource Exporter PR12 Runtime Validation
+
+### 2.1 Deployment approach
+
+- Base installer reference: `resource-exporter/installer/numa-topo.yaml`
+- Verification installers:
+  - `evidence/2026-05-06/installer-numa-topo-lsps044x.yaml`
+  - `evidence/2026-05-06/installer-numa-topo-lsps064x.yaml`
+- Adaptations used for this environment:
+  - PR12 image from internal registry
+  - `nodeSelector` by `kubernetes.io/hostname`
+  - hostPath mounts forced read-only
+
+### 2.2 lsps044x execution and outcome
+
+- Deployment status: `PASS`
+  - DaemonSet rolled out successfully on `lsps044x`
+  - Pod state `Running 1/1`
+- Runtime log highlights:
+  - GPU topology provider active
+  - `Discovered GPU 0 ... NUMA=0`
+  - `Discovered GPU 1 ... NUMA=1`
+  - `Discovered 2 NVIDIA GPU(s)`
+- Numatopology result: `PASS`
+  - CR list contains `lsps044x`
+  - node-specific CR captured
+- Evidence files:
+  - `evidence/2026-05-06/apply-lsps044x.txt`
+  - `evidence/2026-05-06/rollout-lsps044x.txt`
+  - `evidence/2026-05-06/pods-resource-topology-lsps044x.txt`
+  - `evidence/2026-05-06/logs-resource-topology-lsps044x.txt`
+  - `evidence/2026-05-06/numatopologies-list-after-lsps044x.txt`
+  - `evidence/2026-05-06/numatopologies-after-lsps044x.yaml`
+  - `evidence/2026-05-06/numatopology-lsps044x.yaml`
+
+### 2.3 lsps064x execution and outcome
+
+- Deployment status: `PASS`
+  - DaemonSet rolled out successfully on `lsps064x`
+  - Pod state `Running 1/1`
+- Runtime log highlights:
+  - GPU topology provider active
+  - `Discovered GPU 0..3` with `NUMA=0`
+  - `Discovered GPU 4..7` with `NUMA=1`
+  - `Discovered 8 NVIDIA GPU(s)`
+- Numatopology result: `PASS`
+  - CR list contains both `lsps044x` and `lsps064x`
+  - node-specific CR captured for `lsps064x`
+- Note:
+  - non-blocking disk warning observed in logs:
+    `Failed to get disk map: open /sys/block/nvme0c0n1/dev: no such file or directory`
+  - GPU topology discovery and CR update still succeeded.
+- Evidence files:
+  - `evidence/2026-05-06/apply-lsps064x.txt`
+  - `evidence/2026-05-06/rollout-lsps064x.txt`
+  - `evidence/2026-05-06/pods-resource-topology-lsps064x.txt`
+  - `evidence/2026-05-06/logs-resource-topology-lsps064x.txt`
+  - `evidence/2026-05-06/numatopologies-list-after-lsps064x.txt`
+  - `evidence/2026-05-06/numatopologies-after-lsps064x.yaml`
+  - `evidence/2026-05-06/numatopology-lsps064x.yaml`
+
+### 2.4 Phase 2 conclusion
+
+- Result: `PASS`
+- Summary: `resource-exporter PR12 GPU NUMA discovery works on both verification nodes and publishes node-specific Numatopology CR data.`
+- Remaining scope:
+  - validate consumer behavior in scheduler path (`volcano#5095`) against produced CRs
+  - optional: investigate disk map warning path for cleaner logs
