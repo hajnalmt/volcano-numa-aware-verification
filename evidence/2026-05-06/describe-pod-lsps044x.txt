@@ -1,0 +1,83 @@
+Name:             resource-exporter-daemonset-47czv
+Namespace:        volcano-system
+Priority:         0
+Service Account:  resource-exporter-account
+Node:             lsps044x/10.0.138.44
+Start Time:       Wed, 06 May 2026 15:33:41 +0000
+Labels:           controller-revision-hash=58f7c54847
+                  name=resource-topology
+                  pod-template-generation=1
+Annotations:      cni.projectcalico.org/containerID: 515ec6634cc602014d4f386bdba6a4e20259b198f9e1a8ec11b7efa57482040d
+                  cni.projectcalico.org/podIP: 10.110.19.62/32
+                  cni.projectcalico.org/podIPs: 10.110.19.62/32
+Status:           Running
+IP:               10.110.19.62
+IPs:
+  IP:           10.110.19.62
+Controlled By:  DaemonSet/resource-exporter-daemonset
+Containers:
+  resource-topology:
+    Container ID:  containerd://50bde455764133660b339204a13059d2d2c8b5970bc050eda3a9203c01768303
+    Image:         ams-adas-cratus-docker-l.eu.artifactory.automotive.cloud/cratus/volcano/numatopo:pr-12-3abad69-uih20178
+    Image ID:      ams-adas-cratus-docker-l.eu.artifactory.automotive.cloud/cratus/volcano/numatopo@sha256:b98227ff8217c246ab9daf59b0509df9c15303c41eda2b4345fc9780e1f0e74d
+    Port:          <none>
+    Host Port:     <none>
+    Args:
+      --logtostderr
+      --kubelet-conf=/host/kubeletconf/config.yaml
+      --cpu-manager-state=/host/kubelet/cpu_manager_state
+      --device-path=/host/device
+      -v=4
+    State:          Running
+      Started:      Wed, 06 May 2026 15:33:42 +0000
+    Ready:          True
+    Restart Count:  0
+    Environment:
+      MY_NODE_NAME:   (v1:spec.nodeName)
+    Mounts:
+      /host/device from node-path (ro)
+      /host/kubelet from kubelet-path (ro)
+      /host/kubeletconf from kubelet-config-path (ro)
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-wvl4d (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  node-path:
+    Type:          HostPath (bare host directory volume)
+    Path:          /sys/devices/system
+    HostPathType:  
+  kubelet-path:
+    Type:          HostPath (bare host directory volume)
+    Path:          /var/lib/kubelet
+    HostPathType:  
+  kubelet-config-path:
+    Type:          HostPath (bare host directory volume)
+    Path:          /var/lib/kubelet
+    HostPathType:  
+  kube-api-access-wvl4d:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    Optional:                false
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              kubernetes.io/hostname=lsps044x
+Tolerations:                 op=Exists
+                             node.kubernetes.io/disk-pressure:NoSchedule op=Exists
+                             node.kubernetes.io/memory-pressure:NoSchedule op=Exists
+                             node.kubernetes.io/not-ready:NoExecute op=Exists
+                             node.kubernetes.io/pid-pressure:NoSchedule op=Exists
+                             node.kubernetes.io/unreachable:NoExecute op=Exists
+                             node.kubernetes.io/unschedulable:NoSchedule op=Exists
+Events:
+  Type    Reason     Age   From               Message
+  ----    ------     ----  ----               -------
+  Normal  Scheduled  5m9s  default-scheduler  Successfully assigned volcano-system/resource-exporter-daemonset-47czv to lsps044x
+  Normal  Pulled     5m9s  kubelet            Container image "ams-adas-cratus-docker-l.eu.artifactory.automotive.cloud/cratus/volcano/numatopo:pr-12-3abad69-uih20178" already present on machine
+  Normal  Created    5m9s  kubelet            Created container: resource-topology
+  Normal  Started    5m9s  kubelet            Started container resource-topology

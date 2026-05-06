@@ -1,0 +1,417 @@
+apiVersion: v1
+items:
+- apiVersion: nodeinfo.volcano.sh/v1alpha1
+  kind: Numatopology
+  metadata:
+    annotations:
+      timestamp: "1778081629"
+    creationTimestamp: "2026-05-06T15:33:46Z"
+    generation: 2
+    name: lsps044x
+    resourceVersion: "919861126"
+    uid: 72d130e1-19fe-4f9d-8b7a-9a95dfd6819c
+  spec:
+    cpuDetail:
+      "0": {}
+      "1":
+        core: 1
+      "2":
+        core: 4
+      "3":
+        core: 5
+      "4":
+        core: 8
+      "5":
+        core: 9
+      "6":
+        core: 12
+      "7":
+        core: 13
+      "8":
+        core: 16
+      "9":
+        core: 17
+      "10":
+        core: 20
+      "11":
+        core: 21
+      "12":
+        core: 24
+      "13":
+        core: 25
+      "14":
+        core: 28
+      "15":
+        core: 29
+      "16":
+        core: 32
+      "17":
+        core: 33
+      "18":
+        core: 36
+      "19":
+        core: 37
+      "20":
+        core: 40
+      "21":
+        core: 41
+      "22":
+        core: 44
+      "23":
+        core: 45
+      "24":
+        core: 48
+      "25":
+        core: 49
+      "26":
+        core: 52
+      "27":
+        core: 53
+      "28":
+        core: 56
+      "29":
+        core: 57
+      "30":
+        core: 60
+      "31":
+        core: 61
+      "32":
+        numa: 1
+        socket: 1
+      "33":
+        core: 1
+        numa: 1
+        socket: 1
+      "34":
+        core: 4
+        numa: 1
+        socket: 1
+      "35":
+        core: 5
+        numa: 1
+        socket: 1
+      "36":
+        core: 8
+        numa: 1
+        socket: 1
+      "37":
+        core: 9
+        numa: 1
+        socket: 1
+      "38":
+        core: 12
+        numa: 1
+        socket: 1
+      "39":
+        core: 13
+        numa: 1
+        socket: 1
+      "40":
+        core: 16
+        numa: 1
+        socket: 1
+      "41":
+        core: 17
+        numa: 1
+        socket: 1
+      "42":
+        core: 20
+        numa: 1
+        socket: 1
+      "43":
+        core: 21
+        numa: 1
+        socket: 1
+      "44":
+        core: 24
+        numa: 1
+        socket: 1
+      "45":
+        core: 25
+        numa: 1
+        socket: 1
+      "46":
+        core: 28
+        numa: 1
+        socket: 1
+      "47":
+        core: 29
+        numa: 1
+        socket: 1
+      "48":
+        core: 32
+        numa: 1
+        socket: 1
+      "49":
+        core: 33
+        numa: 1
+        socket: 1
+      "50":
+        core: 36
+        numa: 1
+        socket: 1
+      "51":
+        core: 37
+        numa: 1
+        socket: 1
+      "52":
+        core: 40
+        numa: 1
+        socket: 1
+      "53":
+        core: 41
+        numa: 1
+        socket: 1
+      "54":
+        core: 44
+        numa: 1
+        socket: 1
+      "55":
+        core: 45
+        numa: 1
+        socket: 1
+      "56":
+        core: 48
+        numa: 1
+        socket: 1
+      "57":
+        core: 49
+        numa: 1
+        socket: 1
+      "58":
+        core: 52
+        numa: 1
+        socket: 1
+      "59":
+        core: 53
+        numa: 1
+        socket: 1
+      "60":
+        core: 56
+        numa: 1
+        socket: 1
+      "61":
+        core: 57
+        numa: 1
+        socket: 1
+      "62":
+        core: 60
+        numa: 1
+        socket: 1
+      "63":
+        core: 61
+        numa: 1
+        socket: 1
+      "64": {}
+      "65":
+        core: 1
+      "66":
+        core: 4
+      "67":
+        core: 5
+      "68":
+        core: 8
+      "69":
+        core: 9
+      "70":
+        core: 12
+      "71":
+        core: 13
+      "72":
+        core: 16
+      "73":
+        core: 17
+      "74":
+        core: 20
+      "75":
+        core: 21
+      "76":
+        core: 24
+      "77":
+        core: 25
+      "78":
+        core: 28
+      "79":
+        core: 29
+      "80":
+        core: 32
+      "81":
+        core: 33
+      "82":
+        core: 36
+      "83":
+        core: 37
+      "84":
+        core: 40
+      "85":
+        core: 41
+      "86":
+        core: 44
+      "87":
+        core: 45
+      "88":
+        core: 48
+      "89":
+        core: 49
+      "90":
+        core: 52
+      "91":
+        core: 53
+      "92":
+        core: 56
+      "93":
+        core: 57
+      "94":
+        core: 60
+      "95":
+        core: 61
+      "96":
+        numa: 1
+        socket: 1
+      "97":
+        core: 1
+        numa: 1
+        socket: 1
+      "98":
+        core: 4
+        numa: 1
+        socket: 1
+      "99":
+        core: 5
+        numa: 1
+        socket: 1
+      "100":
+        core: 8
+        numa: 1
+        socket: 1
+      "101":
+        core: 9
+        numa: 1
+        socket: 1
+      "102":
+        core: 12
+        numa: 1
+        socket: 1
+      "103":
+        core: 13
+        numa: 1
+        socket: 1
+      "104":
+        core: 16
+        numa: 1
+        socket: 1
+      "105":
+        core: 17
+        numa: 1
+        socket: 1
+      "106":
+        core: 20
+        numa: 1
+        socket: 1
+      "107":
+        core: 21
+        numa: 1
+        socket: 1
+      "108":
+        core: 24
+        numa: 1
+        socket: 1
+      "109":
+        core: 25
+        numa: 1
+        socket: 1
+      "110":
+        core: 28
+        numa: 1
+        socket: 1
+      "111":
+        core: 29
+        numa: 1
+        socket: 1
+      "112":
+        core: 32
+        numa: 1
+        socket: 1
+      "113":
+        core: 33
+        numa: 1
+        socket: 1
+      "114":
+        core: 36
+        numa: 1
+        socket: 1
+      "115":
+        core: 37
+        numa: 1
+        socket: 1
+      "116":
+        core: 40
+        numa: 1
+        socket: 1
+      "117":
+        core: 41
+        numa: 1
+        socket: 1
+      "118":
+        core: 44
+        numa: 1
+        socket: 1
+      "119":
+        core: 45
+        numa: 1
+        socket: 1
+      "120":
+        core: 48
+        numa: 1
+        socket: 1
+      "121":
+        core: 49
+        numa: 1
+        socket: 1
+      "122":
+        core: 52
+        numa: 1
+        socket: 1
+      "123":
+        core: 53
+        numa: 1
+        socket: 1
+      "124":
+        core: 56
+        numa: 1
+        socket: 1
+      "125":
+        core: 57
+        numa: 1
+        socket: 1
+      "126":
+        core: 60
+        numa: 1
+        socket: 1
+      "127":
+        core: 61
+        numa: 1
+        socket: 1
+    gpuDetail:
+      "0":
+        busID: "0000:27:00.0"
+        deviceModel: 0x10de:0x20f1
+      "1":
+        busID: 0000:a3:00.0
+        deviceModel: 0x10de:0x20f1
+        numa: 1
+    numares:
+      cpu:
+        allocatable: 0,7-31,38-64,71-95,102-127
+        capacity: 128
+      gpu:
+        allocatable: 0,1
+        capacity: 2
+    policies:
+      CPUManagerPolicy: ""
+      TopologyManagerPolicy: ""
+    resReserved:
+      cpu: "0"
+kind: List
+metadata:
+  resourceVersion: ""

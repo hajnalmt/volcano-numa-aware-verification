@@ -1,0 +1,2 @@
+NAME                                READY   STATUS    RESTARTS   AGE     IP             NODE       NOMINATED NODE   READINESS GATES
+resource-exporter-daemonset-47czv   1/1     Running   0          5m10s   10.110.19.62   lsps044x   <none>           <none>
