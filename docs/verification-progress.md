@@ -263,3 +263,22 @@ kubectl describe node lsps044x
 - Remaining scope:
   - validate consumer behavior in scheduler path (`volcano#5095`) against produced CRs
   - optional: investigate disk map warning path for cleaner logs
+
+### 2.5 Finding: kubelet policy source mismatch
+
+- Result: `ISSUE`
+- Summary:
+  - resource-exporter logs show kubelet policy map as empty (`map[]`), so
+    TopologyManager and CPUManager policy fields are not populated in the
+    generated `Numatopology` data.
+  - On `lsps044x`, kubelet policies are configured via kubelet startup flags,
+    not via `/var/lib/kubelet/config.yaml` entries.
+  - Evidence from `systemctl status kubelet` startup command includes:
+    - `--cpu-manager-policy=static`
+    - `--topology-manager-policy=best-effort`
+- Interpretation:
+  - If exporter policy discovery only parses kubelet config file content and
+    does not account for effective kubelet process flags, policy detection can
+    be empty even though kubelet policy is active.
+- Evidence reference:
+  - `/tmp/kubelet-start.txt` captured on `lsps044x`
